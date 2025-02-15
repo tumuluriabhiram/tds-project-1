@@ -41,7 +41,7 @@ RUN npm install -g prettier
 COPY app /app
 
 # Install uv
-RUN pip install uv
+RUN pip install uv pillow
 
 # Expose the port that the app runs on
 EXPOSE 8000
